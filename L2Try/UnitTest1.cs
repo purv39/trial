@@ -22,5 +22,14 @@ namespace L2Try
 			double result = obj.FindHypotenuseLength(5, 12);
 			Assert.AreEqual(13, result);
 		}
+
+
+		[TestMethod]
+		public void TestArea1()
+		{
+			Triangle obj = new Triangle();
+			double result = obj.FindArea(3, 4);
+			Assert.AreEqual(6, result);
+		}
 	}
 }

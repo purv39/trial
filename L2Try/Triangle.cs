@@ -15,5 +15,10 @@ namespace L2Try
 			return Math.Sqrt(result);
 			
 		}
+
+		public double FindArea(double a, double b)
+		{
+			return 0;
+		}
 	}
 }
