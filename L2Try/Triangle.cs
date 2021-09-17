@@ -20,5 +20,10 @@ namespace L2Try
 		{
 			return (0.5 * a * b);
 		}
+
+		public double FindMissingAngle(double a, double b)
+		{
+			return 0;
+		}
 	}
 }
