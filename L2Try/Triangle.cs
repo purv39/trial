@@ -10,7 +10,10 @@ namespace L2Try
 	{
 		public double FindHypotenuseLength(double a, double b)
 		{
-			return 0;
+			double result = (a * a) + (b * b);
+
+			return Math.Sqrt(result);
+			
 		}
 	}
 }
