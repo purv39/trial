@@ -23,7 +23,7 @@ namespace L2Try
 
 		public double FindMissingAngle(double a, double b)
 		{
-			return 0;
+			return (180 - a - b);
 		}
 	}
 }
