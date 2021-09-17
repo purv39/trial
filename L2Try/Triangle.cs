@@ -18,7 +18,7 @@ namespace L2Try
 
 		public double FindArea(double a, double b)
 		{
-			return 0;
+			return (0.5 * a * b);
 		}
 	}
 }
