@@ -49,12 +49,6 @@ namespace L2Try
 			Assert.AreEqual(70, result);
 		}
 
-		[TestMethod]
-		public void Test_FindMissingAngle2()
-		{
-			Triangle obj = new Triangle();
-			double result = obj.FindMissingAngle(40, 120);
-			Assert.AreEqual(20, result);
-		}
+		
 	}
 }
