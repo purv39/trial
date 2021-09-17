@@ -8,5 +8,9 @@ namespace L2Try
 {
 	class Triangle
 	{
+		public double FindHypotenuseLength(double a, double b)
+		{
+			return 0;
+		}
 	}
 }

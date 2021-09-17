@@ -8,8 +8,11 @@ namespace L2Try
 	public class UnitTest1
 	{
 		[TestMethod]
-		public void TestMethod1()
+		public void Test_HypotenuseLength1()
 		{
+			Triangle obj = new Triangle();
+			double result = obj.FindHypotenuseLength(3, 4);
+			Assert.AreEqual(5, result);
 		}
 	}
 }
